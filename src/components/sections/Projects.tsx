@@ -6,76 +6,41 @@ import Badge from '@/components/ui/Badge';
 import Button from '@/components/ui/Button';
 import { Github, ExternalLink } from 'lucide-react';
 
-// Abhinesh Lodhi's Projects
+// Anshul Lodhi's Projects
 const projects = [
     {
         id: '1',
-        title: 'RAG-Based AI Assistant',
-        description: 'Built a RAG assistant using LangChain, LlamaIndex, vector embeddings, semantic search, and LLM-based response generation workflows.',
-        image: '🧠',
-        tags: ['Python', 'Django', 'LangChain', 'LlamaIndex', 'OpenAI', 'Vector Embeddings'],
-        category: 'ml',
+        title: 'PlaceHub - College Placement Portal',
+        description: 'A full-stack placement management system using Spring Boot, Spring MVC, Thymeleaf, and MySQL. Implemented RESTful APIs for student registration, company management, and job application handling.',
+        image: '🏢',
+        tags: ['Spring Boot', 'Spring MVC', 'Spring Security', 'MySQL', 'Thymeleaf', 'REST APIs', 'JPA', 'Hibernate'],
+        category: 'web',
         featured: true,
     },
     {
         id: '2',
-        title: 'Multi-Agent AI Research Assistant',
-        description: 'Built a production-grade multi-agent AI research assistant using LangGraph and LangChain to orchestrate autonomous workflows for semantic retrieval, summarization, and report generation.',
-        image: '🤖',
-        tags: ['Python', 'FastAPI', 'LangGraph', 'FAISS', 'Pinecone', 'Redis', 'MLflow', 'QLoRA', 'Docker'],
-        category: 'ml',
+        title: 'Smart Car Parking Management System',
+        description: 'Built a responsive MERN stack web application to automate parking management operations with real-time slot availability, booking management, and vehicle tracking.',
+        image: '🅿️',
+        tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'Bootstrap'],
+        category: 'web',
         featured: true,
+        githubUrl: 'https://github.com/Anshul660/carParkingManagementSystem',
     },
     {
         id: '3',
-        title: 'Network Intrusion Detection System',
-        description: 'Built a machine learning-based analytics system for real-time network traffic classification and anomaly detection, achieving 95%+ prediction accuracy.',
-        image: '🛡️',
-        tags: ['Python', 'Django', 'Scikit-learn', 'Scapy', 'Pandas', 'MySQL'],
-        category: 'ml',
-        githubUrl: 'https://github.com/Abhineshlodhi/NIDS',
-    },
-    {
-        id: '4',
-        title: 'Retail Sales Forecasting & Demand Analytics System',
-        description: 'Developed an end-to-end Data Analytics and ML system to analyze retail sales data and forecast product demand using statistical modeling techniques.',
-        image: '📈',
-        tags: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'SQL'],
-        category: 'ml',
-    },
-    {
-        id: '5',
-        title: 'Full Stack E-commerce Platform',
-        description: 'Developed a Django-based e-commerce platform with scalable backend architecture, optimized MySQL database schemas, and robust RESTful APIs.',
+        title: 'E-commerce Web Application',
+        description: 'Built an online platform with features like product browsing, shopping cart, and checkout process. Integrated Firebase Authentication for secure user login and registration.',
         image: '🛒',
-        tags: ['Python', 'Django', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'REST APIs'],
+        tags: ['React.js', 'Node.js', 'Firebase', 'JavaScript', 'HTML', 'CSS'],
         category: 'web',
-        githubUrl: 'https://github.com/Abhineshlodhi/E-commerce',
-    },
-    {
-        id: '6',
-        title: 'TaskFlow -- Team Task Manager',
-        description: 'Developed a full-stack team task management platform with Kanban-style workflows, JWT authentication, and real-time task progress tracking.',
-        image: '📝',
-        tags: ['Python', 'Django', 'DRF', 'React', 'PostgreSQL', 'Tailwind CSS', 'Docker'],
-        category: 'web',
-        githubUrl: 'https://github.com/Abhineshlodhi/team-task-manager',
-        liveUrl: 'https://team-task-manager-sigma-henna.vercel.app/',
-    },
-    {
-        id: '7',
-        title: 'Personal Portfolio Website',
-        description: 'Developed a production-ready personal portfolio website using React, TypeScript, Tailwind CSS, and Framer Motion with modern UI/UX design.',
-        image: '✨',
-        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vite'],
-        category: 'web',
+        githubUrl: 'https://github.com/Anshul660/ReactProject/tree/main/e-comemerce',
     },
 ];
 
 const categories = [
     { id: 'all', name: 'All Projects' },
-    { id: 'web', name: 'Web Apps' },
-    { id: 'ml', name: 'ML/AI' },
+    { id: 'web', name: 'Full Stack Projects' },
 ];
 
 export default function Projects() {

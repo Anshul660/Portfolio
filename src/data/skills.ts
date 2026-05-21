@@ -9,29 +9,19 @@ export const skills: Skill[] = [
         icon: '💻',
         proficiency: 90,
         yearsOfExperience: 2,
-        description: 'Python, SQL, Java, JavaScript, TypeScript, R, Bash, C/C++',
+        description: 'Java, JavaScript, SQL, C++, TypeScript (Basics)',
     },
-    // AI, Machine Learning & NLP
+    // Backend & Frameworks
     {
-        id: 'ai-ml',
-        name: 'AI, ML & NLP',
-        category: 'ai',
-        icon: '🧠',
-        proficiency: 85,
-        yearsOfExperience: 2,
-        description: 'Scikit-learn, TensorFlow, PyTorch, Hugging Face, Transformers, Statistical Modeling, Predictive Modeling',
-    },
-    // Generative AI
-    {
-        id: 'gen-ai',
-        name: 'Gen AI & Agentic AI',
-        category: 'ai',
-        icon: '🤖',
-        proficiency: 85,
+        id: 'backend',
+        name: 'Backend Technologies',
+        category: 'backend',
+        icon: '⚙️',
+        proficiency: 90,
         yearsOfExperience: 1,
-        description: 'LangChain, LangGraph, LlamaIndex, OpenAI, RAG, Semantic Search, FAISS, Pinecone',
+        description: 'Spring Boot, Spring MVC, REST APIs, Hibernate, JPA, Node.js, Express.js',
     },
-    // Frontend
+    // Frontend Development
     {
         id: 'frontend',
         name: 'Frontend Development',
@@ -39,65 +29,39 @@ export const skills: Skill[] = [
         icon: '🎨',
         proficiency: 85,
         yearsOfExperience: 1,
-        description: 'React.js, TypeScript, HTML5, CSS3, Tailwind CSS, Framer Motion, GSAP, Vite',
-    },
-    // Backend
-    {
-        id: 'backend',
-        name: 'Backend & APIs',
-        category: 'backend',
-        icon: '⚙️',
-        proficiency: 90,
-        yearsOfExperience: 1,
-        description: 'Django, FastAPI, Flask, DRF, REST APIs, JWT, OAuth, Microservices Basics',
-    },
-    // Data Engineering
-    {
-        id: 'data-engineering',
-        name: 'Data Engineering & Big Data',
-        category: 'data',
-        icon: '🚰',
-        proficiency: 80,
-        yearsOfExperience: 1,
-        description: 'Apache Spark, Kafka, Hadoop, Hive, Airflow, ETL pipelines',
+        description: 'React.js, HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS',
     },
     // Databases
     {
         id: 'databases',
-        name: 'Databases & Search',
+        name: 'Databases',
         category: 'data',
         icon: '🗄️',
         proficiency: 85,
         yearsOfExperience: 2,
-        description: 'MySQL, PostgreSQL, Redis, ElasticSearch, Relational & NoSQL Design',
+        description: 'MySQL, MongoDB, CRUD Operations',
     },
-    // Cloud & DevOps
+    // Tools & Platforms
     {
-        id: 'cloud-devops',
-        name: 'Cloud, DevOps & CI/CD',
-        category: 'devops',
-        icon: '☁️',
-        proficiency: 75,
-        yearsOfExperience: 1,
-        description: 'Docker, Kubernetes, Git, Linux, Vercel, Railway, AWS, OCI, MLflow',
-    },
-    // Visualization & Analytics
-    {
-        id: 'analytics',
-        name: 'Visualization & Analytics',
-        category: 'data',
-        icon: '📊',
-        proficiency: 85,
-        yearsOfExperience: 1,
-        description: 'EDA, Tableau, Power BI, Matplotlib, Seaborn, Chart.js',
-    },
-    // Automation & Testing
-    {
-        id: 'automation',
-        name: 'Automation & Testing',
+        id: 'tools',
+        name: 'Tools & Platforms',
         category: 'tools',
         icon: '🔧',
+        proficiency: 85,
+        yearsOfExperience: 1,
+        description: 'Git, GitHub, VS Code, Postman, Maven, Docker (Basics)',
+    },
+    // Concepts & Methodologies
+    {
+        id: 'concepts',
+        name: 'Concepts & Practices',
+        category: 'tools',
+        icon: '📚',
         proficiency: 80,
+        yearsOfExperience: 1,
+        description: 'REST APIs, CRUD Operations, Object-Oriented Programming, Agile, SDLC',
+    },
+];
         yearsOfExperience: 1,
         description: 'Selenium, Playwright, Browser Automation, Debugging',
     },

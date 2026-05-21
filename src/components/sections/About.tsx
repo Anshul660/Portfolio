@@ -24,11 +24,12 @@ export default function About() {
     ];
 
     const timeline = [
-        { year: '2025', event: 'PG-DBDA at C-DAC, Bengaluru' },
-        { year: '2025', event: 'Python Intern at CredenTek' },
-        { year: '2024', event: 'Python Full Stack Training at Qspiders' },
-        { year: '2024', event: 'Graduated B.Tech in CSE from TIT&S Bhopal' },
-        { year: '2020', event: 'Started B.Tech at TIT&S Bhopal' },
+        { year: '2026', event: 'PG-DAC at C-DAC, Bengaluru (Aug 2025 - Feb 2026)' },
+        { year: '2025', event: 'Full Stack Developer Intern at Mealo Solutions (Dec 2024 - June 2025)' },
+        { year: '2025', event: 'Graduated B.Tech in CSE from Technocrats Institute (80% CGPA)' },
+        { year: '2024', event: 'React JS Essential Training - LinkedIn Learning' },
+        { year: '2024', event: 'Front-End Web Development - Udemy' },
+        { year: '2021', event: 'Started B.Tech in CSE' },
     ];
 
     return (
@@ -67,24 +68,22 @@ export default function About() {
                     transition={{ duration: 0.6 }}
                 >
                     <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                        Building User-Centred Applications with Passion
+                        Full Stack Developer | Java Spring Boot & MERN Stack
                     </h3>
 
                     <div className="space-y-4 text-gray-600 dark:text-gray-400 mb-8">
                         <p>
-                            I'm an aspiring Data Scientist and AI Engineer with a strong foundation in Python,
-                            machine learning, and big data technologies. Currently pursuing a PG-DBDA at C-DAC Bengaluru,
-                            I'm passionate about building intelligent, data-driven applications.
+                            Computer Science graduate skilled in Java Full Stack Development using Spring Boot, REST APIs, MySQL, and React.js.
+                            Currently pursuing PG-DAC at C-DAC Bengaluru, I have hands-on experience building scalable web applications with modern tech stacks.
                         </p>
                         <p>
-                            My journey started with a B.Tech in Computer Science Engineering from TITS Bhopal (2020-2024),
-                            followed by intensive Python Full Stack Training at Qspiders and an internship at CredenTek. I've developed
-                            projects ranging from RAG-based AI assistants to retail sales forecasting systems.
+                            With internship experience at Mealo Solutions developing MERN stack applications, I specialize in building responsive applications,
+                            developing secure APIs, and working with modern development tools. My B.Tech from Technocrats Institute of Technology Excellence
+                            (80% CGPA) strengthened my foundation in data structures, algorithms, and software engineering principles.
                         </p>
                         <p>
-                            I'm a strong communicator, collaborative team player, and always eager to learn and
-                            grow in a dynamic development environment. I believe in writing clean, maintainable
-                            code that makes a real impact.
+                            I'm passionate about creating user-centric applications and contributing to impactful tech solutions. A strong communicator,
+                            collaborative team player, and eager to grow in a dynamic development environment.
                         </p>
                     </div>
 
